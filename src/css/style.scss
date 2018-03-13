@@ -1,0 +1,23 @@
+@import './normalize.scss';
+@import './flex.scss';
+
+$mainColor: #d33;
+
+.main {
+  color: $mainColor;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box3 {
+  width: 200px;
+  height: 120px;
+  border: 1px solid #ddd;
+  background: url(/assets/img/bg1.jpg) repeat center center;
+  background-size: cover;
+}
